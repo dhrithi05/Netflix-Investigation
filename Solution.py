@@ -37,3 +37,13 @@ for index, row in action_movies.iterrows():
         short_movie_count += 1
 
 print("The number of short movies less than 90 minutes in 1990s is " + str(short_movie_count))
+
+#######################################
+#extra for git hub
+
+plt.hist(movies["duration"])
+plt.title('Distribution of Movie Durations ')
+plt.xlabel('Duration (minutes)')
+plt.ylabel('Number of Movies')
+plt.show()
+
